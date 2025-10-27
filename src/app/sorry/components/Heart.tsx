@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const Heart = ({ key }: { key: number }) => {
+const Heart = () => {
   const [hearts, setHearts] = useState<{ id: number; x: number; y: number; size: number; duration: number; }[]>([]);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const Heart = ({ key }: { key: number }) => {
       duration: Math.random() * 3 + 2,
     }));
     setHearts(explosion);
-  }, [key]);
+  }, []);
 
   return (
     <div className="fixed top-0 left-0 w-full h-full pointer-events-none">

@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Heart } from 'lucide-react';
-import { useKonamiCode } from './hooks/useKonamiCode';
-import KonamiConfetti from './components/KonamiConfetti';
-import ParticlesComponent from './components/Particles';
+import { useKonamiCode } from '@/app/bdaythanks/hooks/useKonamiCode';
+import KonamiConfetti from '@/app/bdaythanks/components/KonamiConfetti';
+import ParticlesComponent from '@/app/bdaythanks/components/Particles';
 
 const messageParts = [
   "it's been 5 days (right? 14 - 9 = 5 yes i can do math bruh)",
