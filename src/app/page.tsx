@@ -12,7 +12,7 @@ export default function Home() {
             Welcome
           </h1>
           <p className="text-gray-600 text-lg md:text-xl">
-            Which one of the messages is more likely to satisfy Dora's anger? 😁
+            Which one of the messages is more likely to satisfy Dora&apos;s anger? 😁
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function Home() {
                 
                 <div className="text-center space-y-2">
                   <h2 className="text-2xl font-bold text-gray-900">
-                    I'm Sorry
+                    I&apos;m Sorry
                   </h2>
                   <p className="text-gray-600">
                     A heartfelt apology message
