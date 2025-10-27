@@ -9,7 +9,7 @@ export default function Home() {
       <div className="w-full max-w-4xl px-6">
         <div className="text-center mb-12 fade-in">
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 bg-clip-text text-transparent mb-4">
-            Welcome
+            Hi choti, 👋
           </h1>
           <p className="text-gray-600 text-lg md:text-xl">
             Which one of the messages is more likely to satisfy Dora&apos;s anger? 😁
